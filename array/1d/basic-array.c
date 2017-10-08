@@ -10,4 +10,15 @@ void main() {
 		printf("%d ", arry[i]);
 	}
 	printf("}\n");
+
+	printf("Enter Values of Array: ");
+	for (i=0; i < 5; i++) {
+		printf("Enter value if index %d ", i);
+		scanf("%d", &arry[i]);
+	}
+
+	for (i=0; i < 5; i++) {
+		printf("%d ", arry[i]);
+	}
+	printf("}\n");
 }
