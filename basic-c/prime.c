@@ -3,9 +3,9 @@ void main()
 {
 	int a,b,i,j,isprime;
 	printf("Enter the starting range :");
-	scanf("%d\n", &a);
+	scanf("%d", &a);
 	printf("Enter the lower range :");
-	scanf("%d\n", &b);
+	scanf("%d", &b);
 
        	printf("all prime number b/w %d to %d are:\n", a, b);
 	for(i = a ; i <= b ; i++)
